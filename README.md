@@ -37,8 +37,8 @@ the LED frame (pads at 0x1e, mode buttons at 0x0e, lime = secondary page) from t
 |---|---|---|
 | macOS, Linux (ubuntu 24.04 arm64) | SDK harness, plain / ASan+UBSan / TSan | pass |
 | same | `tests/gate_test.c`: the injected gesture, every native case, a short tap, both decks | pass |
-| XDJ-AZ emulator, deck program 2.00 (`ep147-9e9454e357389ece`), AZ-MODS 1.2.4 | GATE CUE on a playing deck, pad held 1.5 s: the cue plays while held, silence on release, deck paused on the cue. Control with the mod off: the deck plays on after the release | pass |
-| a real XDJ-AZ | | **not yet tested** |
+| XDJ-AZ emulator, deck program 2.00 (`ep147-9e9454e357389ece`), AZ-MODS 1.2.4 | an earlier build of 0.1.0 (gating on any HOT CUE page): on GATE CUE with a playing deck, pad held 1.5 s, the cue played while held and stopped on release, deck paused on the cue; control with the mod off, the deck played on. That run also showed the HOT CUE page must be left native, which 0.1.0 does | pass |
+| a real XDJ-AZ (firmware 2.0x) | 0.1.0, by the author | works |
 
 ## Build
 
