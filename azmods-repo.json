@@ -3,5 +3,27 @@
   "name": "Gate Cue",
   "maintainer": "To778899",
   "homepage": "https://github.com/To778899/gate-cue",
-  "mods": []
+  "mods": [
+    {
+      "id": "to778899-gate-cue",
+      "name": "Gate Cue",
+      "version": "0.1.0",
+      "author": "To778899",
+      "summary": "GATE CUE also on a playing deck: a cue plays while its pad is held, then the deck returns to it, paused.",
+      "icon": "https://github.com/To778899/gate-cue/releases/download/to778899-gate-cue-0.1.0/to778899-gate-cue-0.1.0-icon.png",
+      "package": "https://github.com/To778899/gate-cue/releases/download/to778899-gate-cue-0.1.0/to778899-gate-cue-0.1.0.azmod",
+      "sha256": "7ff1e7c439365f7bdae4a90757ce4af57c42e4e4cb97178b862585a50af2c829",
+      "size": 52379,
+      "firmware": [
+        "any"
+      ],
+      "hooks": false,
+      "source": "https://github.com/To778899/gate-cue",
+      "updated": "2026-10-20",
+      "category": "controls",
+      "license": "GPL-3.0-only",
+      "min_core": "1.2.3",
+      "description": "On the GATE CUE pad page (press HOT CUE twice) the XDJ-AZ gates only a paused deck. With this mod, pressing a set cue on a playing deck first pauses it (one PLAY press sent on the pad bus), then lets the pad through: the cue plays while held and the deck returns to it, paused, on release. Edits pad-bus input (PLAY and pad bits, that gesture only); reads the pad LEDs. Leaves the HOT CUE page, empty pads, a paused deck, two pads at once and the 4-deck view native. No audio, hooks, files or network. A Mod Menu row turns it off."
+    }
+  ]
 }
